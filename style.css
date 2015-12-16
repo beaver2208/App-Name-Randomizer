@@ -1,0 +1,27 @@
+.wrap{
+	width: 180px;
+	margin: 10% auto;
+}
+	#button{
+		width: 180px;
+		height: 70px;
+		font: 20px Arial, sans-serif;
+		color: #fff;
+		border-radius: 10px;
+		background: linear-gradient(rgb(255,0,0), rgba(255,0,0, 0.6));
+		border: none;
+		border-bottom: 4px solid #000;
+		outline: none;
+		cursor: pointer;
+	}
+	#button:active{
+		background: linear-gradient( rgba(255,0,0, 0.6), rgb(255,0,0));
+		border-bottom: 2px solid #000;
+	}
+	#div_with_phrase{
+		width: 180px;
+		text-align: center;
+		font: 20px Arial, sans-serif;
+		color: #003366;
+		margin-top: 10px;
+	}
